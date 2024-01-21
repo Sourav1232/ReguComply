@@ -1,0 +1,41 @@
+/* PDFSearchComponent.css */
+
+.pdf-search-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .search-bar {
+    width:50vh; /* Increase width to make it very wide */
+    padding: 15px; /* Maintain padding for better appearance */
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 2px solid #4caf50; /* Add border for a distinct appearance */
+    border-radius: 15px; /* Increase border-radius for pointy corners */
+    outline: none; /* Remove default input outline */
+  }
+  
+  .search-bar:focus {
+    border-color: #45a049; /* Change border color on focus */
+  }
+  
+  button {
+    padding: 15px; /* Adjust padding for the button */
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
